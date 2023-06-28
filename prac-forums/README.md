@@ -1,5 +1,5 @@
-## Pràctica3: Aplicació WEB clàssica. Realització d'un simple forum
-# Objectius
+# Pràctica3: Aplicació WEB clàssica. Realització d'un simple forum
+## Objectius
 L'objectiu d'aquesta pràctica és el de realitzar una aplicació WEB clàsica (en el costat servidor) usant un framework que facilita el desenvolupament d'aquest tipus d'aplicacions.
 En aquest treball es tractaran els següents aspectes:
 - Disseny basat en una arquitectura Model-View-Controller (MVC).
