@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width='600' height='600' viewBox='-300 -300 600 600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<g font-size='14px' pointer-events='none'>
+<rect vector-effect='non-scaling-stroke' fill='none' stroke='gray' stroke-width='2' x='-300' y='-300' width='600' height='600'/>
+<rect fill='rgb(128,128,128)' x='95.0' y='-235.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='95.0' y='-235.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='120.0' cy='-210.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='120.0' cy='-160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='120.0' cy='-110.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='35.0' y='-235.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='35.0' y='-235.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='60.0' cy='-210.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='60.0' cy='-160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='60.0' cy='-110.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-25.0' y='-235.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-25.0' y='-235.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='0.0' cy='-210.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='0.0' cy='-160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='0.0' cy='-110.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-85.0' y='-235.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-85.0' y='-235.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-60.0' cy='-210.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-60.0' cy='-160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-60.0' cy='-110.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-145.0' y='-235.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-145.0' y='-235.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-120.0' cy='-210.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-120.0' cy='-160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-120.0' cy='-110.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='95.0' y='-75.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='95.0' y='-75.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='120.0' cy='-50.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='120.0' cy='-0.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='120.0' cy='50.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='35.0' y='-75.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='35.0' y='-75.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='60.0' cy='-50.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='60.0' cy='-0.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='60.0' cy='50.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-25.0' y='-75.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-25.0' y='-75.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='0.0' cy='-50.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='0.0' cy='-0.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='0.0' cy='50.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-85.0' y='-75.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-85.0' y='-75.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-60.0' cy='-50.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-60.0' cy='-0.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-60.0' cy='50.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-145.0' y='-75.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-145.0' y='-75.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-120.0' cy='-50.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-120.0' cy='-0.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-120.0' cy='50.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='95.0' y='85.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='95.0' y='85.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='120.0' cy='110.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='120.0' cy='160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='120.0' cy='210.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='35.0' y='85.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='35.0' y='85.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='60.0' cy='110.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='60.0' cy='160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='60.0' cy='210.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-25.0' y='85.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-25.0' y='85.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='0.0' cy='110.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='0.0' cy='160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='0.0' cy='210.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-85.0' y='85.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-85.0' y='85.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-60.0' cy='110.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-60.0' cy='160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-60.0' cy='210.0' rx='20.0' ry='20.0'/>
+<rect fill='rgb(128,128,128)' x='-145.0' y='85.0' width='50.0' height='150.0'/>
+<rect fill='none' vector-effect='non-scaling-stroke' stroke='rgb(0,0,0)' stroke-width='1' x='-145.0' y='85.0' width='50.0' height='150.0'/>
+<ellipse fill='rgb(255,0,0)' cx='-120.0' cy='110.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(255,255,0)' cx='-120.0' cy='160.0' rx='20.0' ry='20.0'/>
+<ellipse fill='rgb(0,128,0)' cx='-120.0' cy='210.0' rx='20.0' ry='20.0'/>
+</g>
+</svg>

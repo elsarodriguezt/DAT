@@ -1,0 +1,42 @@
+
+<h1>Plantilla templates/forum.html (A completar per l'estudiant)</h2>
+
+<h4>Esbós de com mostrar un fòrum amb la llista de topics
+ (veieu com es defineixen les variables <code>forum</code> i <code>topics</code> en el corresponent handler)</h4>
+
+<p><a href="@{HomeR}">Torna a la pàgina principal</a></p>
+
+<table class="table table-striped table-condensed">
+  <thead><tr><th>Categoria</th><th>Títol</th><th>Moderador</th><th>Creat</th><th>Topics</th><th>Posts</th></tr></thead>
+  <tbody>
+      <tr>
+        <td>#{ fdCategory forum }</td><td>#{ fdTitle forum }</td>
+        <td>^{ uidNameWidget (fdModeratorId forum) }</td>
+        <td>^{ dateWidget (fdCreated forum) }</td>
+        <td>#{ fdTopicCount forum }</td>
+        <td>#{ fdPostCount forum } </td>
+      </tr>
+  </tbody>
+</table>
+
+<div class="bg-light">#{ fdDescription forum }</div>
+
+<p>Topics:</p>
+<table class="table table-striped table-condensed">
+  <thead><tr><th>Qüestió</th><th>Per / Iniciada</th><th>Posts</th><th>Última activitat</th></tr></thead>
+  <tbody>
+    $forall{ (tid, topic) <- topics }
+      <tr>
+        <td><a href="@{TopicR tid}"><strong>#{ tdSubject topic }</strong></a></td>
+        <td>^{ uidNameWidget (tdUserId topic) } / <span class="small">^{ dateWidget (tdStarted topic) }</span></td>
+        <td>#{ tdPostCount topic }</td>
+        <td>$maybe{ lastpid <- tdLastPostId topic } ^{pidPostedWidget lastpid} $end </td>
+      </tr>
+    $end
+  </tbody>
+</table>
+
+$if{ isJust mbuser }
+  <h4>Formulari per a introdüir una nova pregunta (topic + post) ...</h4>
+$end
+

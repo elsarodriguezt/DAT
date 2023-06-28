@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script type='text/javascript' src='./widgets.js'></script>
+  <script type='text/javascript' src='./draw.js'></script>
+  <script type='text/javascript' src='./render.js'></script>
+  <title>Drawing</title>
+</head>
+<body>
+<div class='container-fluid'>
+  <h3><span id='app-cgi'></span></h3>
+  <div class="row">
+    <div id='canvas' class='col-md'
+       onkeydown='keydownEvent(evt);' onkeyup='keyupEvent(evt);'>
+    </div>
+
+    <div id='panel' class="col-md">
+      <div>
+        <div>Time: <span id='time'></span></div>
+        <div>Pending events: <span id='pendEvts-output'></span></div>
+        <div>Last event: <span id='lastEvt-output'></span></div>
+      </div>
+
+      <hr>
+
+      <div>
+        <div>Refreshs by second:
+          <input type='range' id='refr-range' min='0' max='100'> <span id='refr-output'></span>
+        </div>
+        <div>Pending RCV: <span id='rcvBuf-output'></span></div>
+      </div>
+      <div class="alert alert-info" role="alert">
+        <small>La velocitat de refresc està limitada pel RTT (<em>round-trip time</em>)
+        entre el vostre navegador i el servidor.
+        Per exemple, si el RTT de la xarxa entre el navegador i el servidor és de 500ms
+        no es podrà obtenir una velocitat de refresc superior a 2 per segon.</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type='text/javascript'>
+    init();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+
+cabal-version: 1.12
+
+name:           drawing
+version:        0.2.2.0
+--- description:    Please see the README on GitHub at <https://github.com/githubuser/drawing#readme>
+author:         Jordi Forga Alberich
+maintainer:     jordi.forga@upc.edu
+copyright:      2022 Jordi Forga-Alberich
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+data-files:
+    index.html
+    draw.js
+    render.js
+    widgets.js
+data-dir:       data
+
+library
+  exposed-modules:
+      Drawing
+      Drawing.Vector
+      Drawing.IO
+  other-modules:
+      Drawing.Internal.Handler
+      Drawing.Internal.Handler.Store
+      Drawing.Internal.Render
+      Drawing.Internal.Types
+      Paths_drawing
+  hs-source-dirs:
+      src
+  ghc-options:
+      -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns
+      -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  cpp-options: -DWAI_WARP
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bytestring
+    , containers
+    , http-types
+    , text
+    , time
+    , wai >=3.0
+    , wai-middleware-static
+    , warp
+  default-language: Haskell2010
+
