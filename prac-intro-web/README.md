@@ -1,4 +1,5 @@
-# Web Application Interface
+# Pràctica 2
+## Web Application Interface
 En Haskell es disposa d'un API bàsic per a la programació d'aplicacions WEB que és independent del servidor. Aquest API s'anomena Web Application Interface (WAI) i serà el suport per a frameworks més elaborats que facilitin el desenvolupament d'aplicacions complexes.
 
 Com a primer exemple, veiem una simple aplicació en que es mostra un formulari a l'usuari per introduir el seu nom, i guarda durant la sessió (a través d'una cookie) el nom i el mostra en les successives interaccions.
@@ -14,11 +15,11 @@ Per executar l'aplicació caldrà fer:
 
 on nomFitxer.hs és el nom del fitxer corresponent al mòdul Main de l'aplicació.
 
-# Realització d'un monad Handler
+## Realització d'un monad Handler
 L'objectiu d'aquest apartat és la realització d'un monad (que anomenarem Handler) que faciliti la programació d'aplicacions WEB.
 Un exemple d'us d'aquest monad el teniu en una segona versió de l'aplicació hello anterior (hello-2.hs).
 
-# Codi
+## Codi
 El codi de l'aplicació conté els següents mòduls Haskell:
 
 Main:
@@ -36,7 +37,7 @@ A més s'usen altres paquets preinstal.lats de la plataforma Haskell. Alguns del
   Definició del WAI. Defineix tipus i funcions per al processat de peticions i contrucció de respostes HTTP.
   La documentació de tots els paquests la podeu trobar en https://hackage.haskell.org/, que és la base de dades centralitzada dels paquets disponibles de Haskell de codi obert. També podeu usar el buscador de funcions https://hoogle.haskell.org/
 
-# Realització d'un cas d'ús del monad Handler (Joc de la vida, fitxer: part2.hs)
+## Realització d'un cas d'ús del monad Handler (Joc de la vida, fitxer: part2.hs)
 En aquest apartat es demana la realització d'una senzilla aplicació WEB que usa el monad Handler que heu implementat anteriorment.
 
 L'aplicació consisteix en un joc que processa una cadena de caràcters i produeix una puntuació (número enter) a partir de la cadena. Durant el processat el monad Handler manté un estat amb la puntuació actual i un flag que indica si el joc està activat o desactivat. El processat dels caràcters consisteix en:
