@@ -30,11 +30,9 @@ Defineix un monad Handler, usat pel mòdul anterior, que simplifica l'aplicació
 A més s'usen altres paquets preinstal.lats de la plataforma Haskell. Alguns dels paquets usats en aquesta aplicació, específics per a la programació de la WEB, són:
 
   blaze-html:
-  
   Defineix tipus, funcions i operadors per a la la generació d'HTML.
   
   wai:
-  
   Definició del WAI. Defineix tipus i funcions per al processat de peticions i contrucció de respostes HTTP.
   La documentació de tots els paquests la podeu trobar en https://hackage.haskell.org/, que és la base de dades centralitzada dels paquets disponibles de Haskell de codi obert. També podeu usar el buscador de funcions https://hoogle.haskell.org/
 
