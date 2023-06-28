@@ -7,7 +7,9 @@ El codi d'aquest exemple (hello-1.hs) usa el WAI i a més usa també un paquet d
 Per executar l'aplicació caldrà fer:
 
 ~/dat-2023p$ cd prj/prac-intro-web
+
 ~/dat-2023p/prj/prac-intro-web$ stack build
+
 ~/dat-2023p/prj/prac-intro-web$ stack runghc nomxFitxer.hs
 
 on nomFitxer.hs és el nom del fitxer corresponent al mòdul Main de l'aplicació.
